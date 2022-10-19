@@ -1,0 +1,195 @@
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha
+$ ls
+ 01-HTML/    03-Javascript/   05-Git-Github/   07-Archivos-css/
+'02- CSS'/   04-React/        06-projects/     07-markdown/
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha
+$ cd 05-Git-Github/
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ ls
+README.md  licence.txt
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch
+* main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch a
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch
+  a
+* main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git checkout a
+Switched to branch 'a'
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (a)
+$ git checkout -b b
+Switched to a new branch 'b'
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (b)
+$ git branch
+  a
+* b
+  main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (b)
+$ git branch -d a
+Deleted branch a (was 1dbb5e2).
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (b)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch
+  b
+* main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git -d b
+unknown option: -d
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch
+  b
+* main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch -d a
+error: branch 'a' not found.
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch -d b
+Deleted branch b (was 1dbb5e2).
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch
+* main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git checkout -b html
+Switched to a new branch 'html'
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (html)
+$ git add .
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (html)
+$ git commit -m "creando index.html"
+[html ef184a2] creando index.html
+ 1 file changed, 16 insertions(+)
+ create mode 100644 index.html
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (html)
+$ git push -u origin html
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 557 bytes | 111.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'html' on GitHub by visiting:
+remote:      https://github.com/aontaneda2000/05-github/pull/new/html
+remote:
+To https://github.com/aontaneda2000/05-github.git
+ * [new branch]      html -> html
+Branch 'html' set up to track remote branch 'html' from 'origin'.
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (html)
+$ git checkout -b css
+Switched to a new branch 'css'
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (css)
+$ git add .
+gi
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (css)
+$ git commit -m "creando style.css"
+[css a0521be] creando style.css
+ 1 file changed, 4 insertions(+)
+ create mode 100644 style.css
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (css)
+$ git push -u origin css
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 320 bytes | 53.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'css' on GitHub by visiting:
+remote:      https://github.com/aontaneda2000/05-github/pull/new/css
+remote:
+To https://github.com/aontaneda2000/05-github.git
+ * [new branch]      css -> css
+Branch 'css' set up to track remote branch 'css' from 'origin'.
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (css)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git checkout -b js
+Switched to a new branch 'js'
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (js)
+$
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (js)
+$ git add .
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (js)
+$ git commit -m "add index.js"
+[js 29dfa29] add index.js
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.js
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (js)
+$ git push -u origin js
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 373 bytes | 186.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'js' on GitHub by visiting:
+remote:      https://github.com/aontaneda2000/05-github/pull/new/js
+remote:
+To https://github.com/aontaneda2000/05-github.git
+ * [new branch]      js -> js
+Branch 'js' set up to track remote branch 'js' from 'origin'.
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (js)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+g
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ git branch
+  css
+  html
+  js
+* main
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
+$ ^C
+
+USER@DESKTOP-4VQLER7 MINGW64 /e/01-jonmircha/05-Git-Github (main)
