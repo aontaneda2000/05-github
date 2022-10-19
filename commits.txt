@@ -1,0 +1,92 @@
+commit c0f16bfc00ba9dbbbcd9b96231842fccc8a7121a
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 09:26:51 2022 -0500
+
+    agregando 2 parrafo
+
+commit 68983d9a9a38ff46fc3161d4e2f8fb52451c6838
+Merge: 25036f5 5588dfe
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 09:24:44 2022 -0500
+
+    resolviendo conflicto ene staciones del año y fecha de incio
+
+commit 25036f5078ffcfd3697a443eee1242f7b70b5212
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 09:10:57 2022 -0500
+
+    agreando estaciones del año con fecha de inicio
+
+commit 5588dfe830fb82778cbe2cbe4e8df6c38bc93fd5
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 09:10:57 2022 -0500
+
+    add estaciones del año
+
+commit eb362ba1682b89715843ee112423041e08643f9a
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 08:30:21 2022 -0500
+
+    Agregando estaciones del año
+
+commit 948d427a7288fc3045cf62006bdea306c420f3bc
+Merge: eade4f4 f3151db
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 07:16:05 2022 -0500
+
+    resolviendo conflicto
+
+commit f3151db78d85bbe5809717c9ddaa2c08c3261491
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 07:06:27 2022 -0500
+
+    agregando index.js al index.html
+
+commit eade4f4786de65534e1e0b5b3089933461e92894
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 07:04:54 2022 -0500
+
+    agregando style.css a index.html
+
+commit f4ae20b4017f2aa0f504da2237b76e01ad5bb230
+Merge: a0521be 29dfa29
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Wed Oct 19 06:53:58 2022 -0500
+
+    Merge branch 'js'
+
+commit 29dfa290767cdfc1cccb2af4ec4cd359f0420ed0
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Tue Oct 18 12:56:00 2022 -0500
+
+    add index.js
+
+commit a0521be389679d603178fe57e1a955deea747bdb
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Tue Oct 18 12:52:05 2022 -0500
+
+    creando style.css
+
+commit ef184a2644782a269c1f672a9dd114aec4f68a9b
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Tue Oct 18 12:47:06 2022 -0500
+
+    creando index.html
+
+commit 1dbb5e295959dd063cd60b161cbb26e0eb5f1a20
+Author: Steven Ontaneda <aron_ch37@outlook.es>
+Date:   Tue Oct 18 11:15:29 2022 -0500
+
+    Creando licencia del repositorio
+
+commit 1c99d2ea932165e893c4f6b9fa326ae34f54c416
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Tue Oct 18 11:00:45 2022 -0500
+
+    add content readme
+
+commit 378037f23922e645960c5e9c87dd1826a03d53ad
+Author: Aaron <aron_ch37@outlook.es>
+Date:   Tue Oct 18 10:58:15 2022 -0500
+
+    first commit
